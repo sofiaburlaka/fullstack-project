@@ -1,0 +1,212 @@
+/* @import url(https://fonts.googleapis.com/css?family=Preahvihear:regular);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic); */
+
+
+body{
+    background-color: #11071F;
+    max-width: 2304px ;
+    height: auto;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+
+}
+
+header{
+    width: 100%;
+    height: 5vw;
+    background: #1A0B2E;
+    box-shadow: 0px 6px 22px -3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.header-content{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    width: 30%;
+    justify-content: space-around;
+    color: aliceblue;
+    font-size: 1.2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    
+}
+
+header ul li a:hover{
+    cursor: pointer;
+    text-shadow: 1px 1px 30px #ffffff;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vw;
+}
+.iam-block{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+   
+}
+.card-text-block{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.text-iam{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-family: Preahvihear;
+    font-size: 1vw;
+    margin-left:3vw ;
+}
+
+.prog-img{
+    width: auto;
+    height: 10vw;    
+}
+
+p{
+    margin: 0px;
+    letter-spacing: 0.02em;
+}
+.judge-book{
+    font-size: 2vw;
+}
+.cover{
+    color: rgba(113, 39, 186, 1);
+    background-image: url(/img/Ellipse5.png);
+    background-size: contain;
+    background-size: 6.1vw;
+    background-repeat: no-repeat;
+}
+
+.big-txt{
+    font-family: Preahvihear;
+    margin: 0px;
+    padding: 0;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    font-size: 2vw;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+.small-txt{
+    padding: 0;
+    margin: 0;
+    font-size: 1vw;
+}
+
+.self-taught{
+    font-family: Preahvihear;
+    color: #ffffff;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.cards-cont{
+    margin-top: 2%;
+}
+
+.my-violet{
+    background: linear-gradient(95.56deg, #130428 0.58%, #251043 16.32%, #38126D 29.33%, #261045 45.66%, #190634 54.44%);
+    box-shadow: 4px 7px 26px rgba(0, 0, 0, 0.12);
+    border-radius: 2vw;
+    border-top: 0.3vw;
+    border-style: solid;
+    border-color: rgba(105, 59, 147, 1);
+    width: 30vw;
+    height: 10vw;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-violet-f{
+    background: linear-gradient(110.49deg, #130428 19.95%, #251043 67.64%, #38126D 107.08%, #261045 156.61%, #190634 183.21%);
+    box-shadow: 4px 7px 26px rgba(0, 0, 0, 0.12);
+    border-radius: 2vw;
+    width: 30vw;
+    height: 10vw;
+    border-top: 0.3vw;
+    border-style: solid;
+    border-color: rgba(105, 59, 147, 1);
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-block{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background: radial-gradient(30% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0) 100%);
+}
+
+
+.card-img{
+    width: auto;
+    height: 5vw;
+    margin-right: 2vw;
+}
+.card-btn{
+    width: 7vw;
+    height: 2vw;
+    background: #2C1250;
+    border: 1px solid #693B93;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 0.8vw;
+    margin-top: 1vw;
+}
+
+.card-txt{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-family: Poppins;
+    text-align: left;
+}
+
+.work-exp{
+    font-size: 3vw;
+    color: #ffffff;
+    margin-left: 2vw;
+    margin-bottom: 2vw;
+    font-family: Preahvihear;
+}
+
+.lookFor-block{
+    margin-top: 3vw;
+}
+
+.lookFor-block img{
+    width: auto;
+    height: 40vw;
+}
